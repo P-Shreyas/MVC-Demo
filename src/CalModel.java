@@ -1,4 +1,4 @@
-public class Model {
+public class CalModel {
 
     private int calculationValue;
 
