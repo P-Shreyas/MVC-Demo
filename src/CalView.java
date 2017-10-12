@@ -2,14 +2,15 @@ import javax.swing.*;
 import java.awt.event.ActionListener;
 
 public class CalView  extends JFrame{
-    private JTextField firstnumber=new JTextField("10");
+    private JTextField firstnumber=new JTextField(10);
     private JLabel label =new JLabel("+");
-    private JTextField secondnumber=new JTextField("10");
+    private JTextField secondnumber=new JTextField(10);
     private JButton add=new JButton("ADD");
-    private JTextField result=new JTextField("10");
+    private JTextField result=new JTextField(10);
 
     CalView(){
         JPanel panel=new JPanel();
+        this.setSize(600,400);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
