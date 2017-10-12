@@ -39,7 +39,7 @@ public class CalView  extends JFrame{
         result.setText(String.valueOf(calutationValue));
     }
 
-    public void addCalculationListener(ActionListener actionListener){
+    public void addCalculationListener(CalculationListener actionListener){
         add.addActionListener(actionListener);
     }
 
